@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C33D35D1DEC8F2F000377C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C33D35C1DEC8F2F000377C2 /* main.m */; };
+		2C33D3601DEC8F2F000377C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C33D35F1DEC8F2F000377C2 /* AppDelegate.m */; };
+		2C33D3631DEC8F2F000377C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C33D3621DEC8F2F000377C2 /* ViewController.m */; };
+		2C33D3761DEC8F2F000377C2 /* RACCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C33D3751DEC8F2F000377C2 /* RACCodeTests.m */; };
+		2C33D3811DEC8F2F000377C2 /* RACCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C33D3801DEC8F2F000377C2 /* RACCodeUITests.m */; };
+		2C33D38F1DEC8F7E000377C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C33D38E1DEC8F7E000377C2 /* Images.xcassets */; };
+		FD9A774651CB6213BABE391B /* Pods_RACCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5CB8F784D2E9DB2E90EA4C /* Pods_RACCode.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C33D3721DEC8F2F000377C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C33D3501DEC8F2F000377C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C33D3571DEC8F2F000377C2;
+			remoteInfo = RACCode;
+		};
+		2C33D37D1DEC8F2F000377C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C33D3501DEC8F2F000377C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C33D3571DEC8F2F000377C2;
+			remoteInfo = RACCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C33D3581DEC8F2F000377C2 /* RACCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C33D35C1DEC8F2F000377C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C33D35E1DEC8F2F000377C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C33D35F1DEC8F2F000377C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C33D3611DEC8F2F000377C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C33D3621DEC8F2F000377C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C33D36C1DEC8F2F000377C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C33D3711DEC8F2F000377C2 /* RACCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C33D3751DEC8F2F000377C2 /* RACCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACCodeTests.m; sourceTree = "<group>"; };
+		2C33D3771DEC8F2F000377C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C33D37C1DEC8F2F000377C2 /* RACCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C33D3801DEC8F2F000377C2 /* RACCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACCodeUITests.m; sourceTree = "<group>"; };
+		2C33D3821DEC8F2F000377C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C33D38E1DEC8F7E000377C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C33D3901DEC8F9E000377C2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5D5CB8F784D2E9DB2E90EA4C /* Pods_RACCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C590BF9D5E7FF097F9285A /* Pods-RACCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACCode/Pods-RACCode.release.xcconfig"; sourceTree = "<group>"; };
+		9B539F04DDC1E34B4DCB2CEE /* Pods-RACCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACCode/Pods-RACCode.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C33D3551DEC8F2F000377C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9A774651CB6213BABE391B /* Pods_RACCode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C33D36E1DEC8F2F000377C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C33D3791DEC8F2F000377C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2007BEB9ECE138255B8DD458 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B539F04DDC1E34B4DCB2CEE /* Pods-RACCode.debug.xcconfig */,
+				62C590BF9D5E7FF097F9285A /* Pods-RACCode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C33D34F1DEC8F2F000377C2 = {
+			isa = PBXGroup;
+			children = (
+				2C33D35A1DEC8F2F000377C2 /* RACCode */,
+				2C33D3741DEC8F2F000377C2 /* RACCodeTests */,
+				2C33D37F1DEC8F2F000377C2 /* RACCodeUITests */,
+				2C33D3591DEC8F2F000377C2 /* Products */,
+				2007BEB9ECE138255B8DD458 /* Pods */,
+				517C3ABFDDA76AEC2B5F8098 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C33D3591DEC8F2F000377C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C33D3581DEC8F2F000377C2 /* RACCode.app */,
+				2C33D3711DEC8F2F000377C2 /* RACCodeTests.xctest */,
+				2C33D37C1DEC8F2F000377C2 /* RACCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C33D35A1DEC8F2F000377C2 /* RACCode */ = {
+			isa = PBXGroup;
+			children = (
+				2C33D35E1DEC8F2F000377C2 /* AppDelegate.h */,
+				2C33D35F1DEC8F2F000377C2 /* AppDelegate.m */,
+				2C33D3611DEC8F2F000377C2 /* ViewController.h */,
+				2C33D3621DEC8F2F000377C2 /* ViewController.m */,
+				2C33D36C1DEC8F2F000377C2 /* Info.plist */,
+				2C33D38E1DEC8F7E000377C2 /* Images.xcassets */,
+				2C33D35B1DEC8F2F000377C2 /* Supporting Files */,
+			);
+			path = RACCode;
+			sourceTree = "<group>";
+		};
+		2C33D35B1DEC8F2F000377C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C33D35C1DEC8F2F000377C2 /* main.m */,
+				2C33D3901DEC8F9E000377C2 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C33D3741DEC8F2F000377C2 /* RACCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C33D3751DEC8F2F000377C2 /* RACCodeTests.m */,
+				2C33D3771DEC8F2F000377C2 /* Info.plist */,
+			);
+			path = RACCodeTests;
+			sourceTree = "<group>";
+		};
+		2C33D37F1DEC8F2F000377C2 /* RACCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C33D3801DEC8F2F000377C2 /* RACCodeUITests.m */,
+				2C33D3821DEC8F2F000377C2 /* Info.plist */,
+			);
+			path = RACCodeUITests;
+			sourceTree = "<group>";
+		};
+		517C3ABFDDA76AEC2B5F8098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D5CB8F784D2E9DB2E90EA4C /* Pods_RACCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C33D3571DEC8F2F000377C2 /* RACCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C33D3851DEC8F2F000377C2 /* Build configuration list for PBXNativeTarget "RACCode" */;
+			buildPhases = (
+				CABA3076249DB4AD9095A0C2 /* [CP] Check Pods Manifest.lock */,
+				2C33D3541DEC8F2F000377C2 /* Sources */,
+				2C33D3551DEC8F2F000377C2 /* Frameworks */,
+				2C33D3561DEC8F2F000377C2 /* Resources */,
+				87AC81B61E666FF0DBF43570 /* [CP] Embed Pods Frameworks */,
+				36BAC1DF9A67E5BFBEF4C611 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RACCode;
+			productName = RACCode;
+			productReference = 2C33D3581DEC8F2F000377C2 /* RACCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C33D3701DEC8F2F000377C2 /* RACCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C33D3881DEC8F2F000377C2 /* Build configuration list for PBXNativeTarget "RACCodeTests" */;
+			buildPhases = (
+				2C33D36D1DEC8F2F000377C2 /* Sources */,
+				2C33D36E1DEC8F2F000377C2 /* Frameworks */,
+				2C33D36F1DEC8F2F000377C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C33D3731DEC8F2F000377C2 /* PBXTargetDependency */,
+			);
+			name = RACCodeTests;
+			productName = RACCodeTests;
+			productReference = 2C33D3711DEC8F2F000377C2 /* RACCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C33D37B1DEC8F2F000377C2 /* RACCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C33D38B1DEC8F2F000377C2 /* Build configuration list for PBXNativeTarget "RACCodeUITests" */;
+			buildPhases = (
+				2C33D3781DEC8F2F000377C2 /* Sources */,
+				2C33D3791DEC8F2F000377C2 /* Frameworks */,
+				2C33D37A1DEC8F2F000377C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C33D37E1DEC8F2F000377C2 /* PBXTargetDependency */,
+			);
+			name = RACCodeUITests;
+			productName = RACCodeUITests;
+			productReference = 2C33D37C1DEC8F2F000377C2 /* RACCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C33D3501DEC8F2F000377C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = YY;
+				TargetAttributes = {
+					2C33D3571DEC8F2F000377C2 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					2C33D3701DEC8F2F000377C2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C33D3571DEC8F2F000377C2;
+					};
+					2C33D37B1DEC8F2F000377C2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C33D3571DEC8F2F000377C2;
+					};
+				};
+			};
+			buildConfigurationList = 2C33D3531DEC8F2F000377C2 /* Build configuration list for PBXProject "RACCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C33D34F1DEC8F2F000377C2;
+			productRefGroup = 2C33D3591DEC8F2F000377C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C33D3571DEC8F2F000377C2 /* RACCode */,
+				2C33D3701DEC8F2F000377C2 /* RACCodeTests */,
+				2C33D37B1DEC8F2F000377C2 /* RACCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C33D3561DEC8F2F000377C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C33D38F1DEC8F7E000377C2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C33D36F1DEC8F2F000377C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C33D37A1DEC8F2F000377C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36BAC1DF9A67E5BFBEF4C611 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACCode/Pods-RACCode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87AC81B61E666FF0DBF43570 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACCode/Pods-RACCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CABA3076249DB4AD9095A0C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C33D3541DEC8F2F000377C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C33D3631DEC8F2F000377C2 /* ViewController.m in Sources */,
+				2C33D3601DEC8F2F000377C2 /* AppDelegate.m in Sources */,
+				2C33D35D1DEC8F2F000377C2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C33D36D1DEC8F2F000377C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C33D3761DEC8F2F000377C2 /* RACCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C33D3781DEC8F2F000377C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C33D3811DEC8F2F000377C2 /* RACCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C33D3731DEC8F2F000377C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C33D3571DEC8F2F000377C2 /* RACCode */;
+			targetProxy = 2C33D3721DEC8F2F000377C2 /* PBXContainerItemProxy */;
+		};
+		2C33D37E1DEC8F2F000377C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C33D3571DEC8F2F000377C2 /* RACCode */;
+			targetProxy = 2C33D37D1DEC8F2F000377C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C33D3831DEC8F2F000377C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C33D3841DEC8F2F000377C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C33D3861DEC8F2F000377C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B539F04DDC1E34B4DCB2CEE /* Pods-RACCode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = RACCode/PrefixHeader.pch;
+				INFOPLIST_FILE = RACCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.RACCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2C33D3871DEC8F2F000377C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C590BF9D5E7FF097F9285A /* Pods-RACCode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = RACCode/PrefixHeader.pch;
+				INFOPLIST_FILE = RACCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.RACCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2C33D3891DEC8F2F000377C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RACCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.RACCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACCode.app/RACCode";
+			};
+			name = Debug;
+		};
+		2C33D38A1DEC8F2F000377C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RACCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.RACCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACCode.app/RACCode";
+			};
+			name = Release;
+		};
+		2C33D38C1DEC8F2F000377C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RACCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.RACCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RACCode;
+			};
+			name = Debug;
+		};
+		2C33D38D1DEC8F2F000377C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RACCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.RACCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RACCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C33D3531DEC8F2F000377C2 /* Build configuration list for PBXProject "RACCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C33D3831DEC8F2F000377C2 /* Debug */,
+				2C33D3841DEC8F2F000377C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C33D3851DEC8F2F000377C2 /* Build configuration list for PBXNativeTarget "RACCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C33D3861DEC8F2F000377C2 /* Debug */,
+				2C33D3871DEC8F2F000377C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C33D3881DEC8F2F000377C2 /* Build configuration list for PBXNativeTarget "RACCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C33D3891DEC8F2F000377C2 /* Debug */,
+				2C33D38A1DEC8F2F000377C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C33D38B1DEC8F2F000377C2 /* Build configuration list for PBXNativeTarget "RACCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C33D38C1DEC8F2F000377C2 /* Debug */,
+				2C33D38D1DEC8F2F000377C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C33D3501DEC8F2F000377C2 /* Project object */;
+}
