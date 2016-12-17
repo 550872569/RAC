@@ -14,5 +14,8 @@
 #import "Masonry.h"
 #import "MBProgressHUD.h"
 #import "ReactiveCocoa.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "Person.h"
+#import "PersonViewModel.h"
 
 #endif /* PrefixHeader_pch */

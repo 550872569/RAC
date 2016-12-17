@@ -13,6 +13,8 @@
 		2C33D3761DEC8F2F000377C2 /* RACCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C33D3751DEC8F2F000377C2 /* RACCodeTests.m */; };
 		2C33D3811DEC8F2F000377C2 /* RACCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C33D3801DEC8F2F000377C2 /* RACCodeUITests.m */; };
 		2C33D38F1DEC8F7E000377C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C33D38E1DEC8F7E000377C2 /* Images.xcassets */; };
+		2C9BC2E01DEF1489009B6D71 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BC2DF1DEF1489009B6D71 /* Person.m */; };
+		2C9BC2E31DEF154F009B6D71 /* PersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BC2E21DEF154F009B6D71 /* PersonViewModel.m */; };
 		FD9A774651CB6213BABE391B /* Pods_RACCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5CB8F784D2E9DB2E90EA4C /* Pods_RACCode.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,10 @@
 		2C33D3821DEC8F2F000377C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C33D38E1DEC8F7E000377C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2C33D3901DEC8F9E000377C2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2C9BC2DE1DEF1488009B6D71 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2C9BC2DF1DEF1489009B6D71 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2C9BC2E11DEF154F009B6D71 /* PersonViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewModel.h; sourceTree = "<group>"; };
+		2C9BC2E21DEF154F009B6D71 /* PersonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewModel.m; sourceTree = "<group>"; };
 		5D5CB8F784D2E9DB2E90EA4C /* Pods_RACCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C590BF9D5E7FF097F9285A /* Pods-RACCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACCode/Pods-RACCode.release.xcconfig"; sourceTree = "<group>"; };
 		9B539F04DDC1E34B4DCB2CEE /* Pods-RACCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACCode/Pods-RACCode.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +124,10 @@
 				2C33D35F1DEC8F2F000377C2 /* AppDelegate.m */,
 				2C33D3611DEC8F2F000377C2 /* ViewController.h */,
 				2C33D3621DEC8F2F000377C2 /* ViewController.m */,
+				2C9BC2DE1DEF1488009B6D71 /* Person.h */,
+				2C9BC2DF1DEF1489009B6D71 /* Person.m */,
+				2C9BC2E11DEF154F009B6D71 /* PersonViewModel.h */,
+				2C9BC2E21DEF154F009B6D71 /* PersonViewModel.m */,
 				2C33D36C1DEC8F2F000377C2 /* Info.plist */,
 				2C33D38E1DEC8F7E000377C2 /* Images.xcassets */,
 				2C33D35B1DEC8F2F000377C2 /* Supporting Files */,
@@ -343,8 +353,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9BC2E31DEF154F009B6D71 /* PersonViewModel.m in Sources */,
 				2C33D3631DEC8F2F000377C2 /* ViewController.m in Sources */,
 				2C33D3601DEC8F2F000377C2 /* AppDelegate.m in Sources */,
+				2C9BC2E01DEF1489009B6D71 /* Person.m in Sources */,
 				2C33D35D1DEC8F2F000377C2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
